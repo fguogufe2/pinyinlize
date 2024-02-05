@@ -16,7 +16,7 @@ One is the sentence style, which means only the first letter of the first word i
 
     eg: 
 
-    command:" `python pinyinlize.py "清代基層地方官人事嬗遞現象之量化分析"  
+    command: `python pinyinlize.py "清代基層地方官人事嬗遞現象之量化分析"`  
 
     output: "Qingdai jiceng difangguan renshi shandi xianxiang zhi lianghua fenxi"
 
