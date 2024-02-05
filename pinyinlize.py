@@ -7,8 +7,8 @@ import logging
  input: chinese text
  output: pinyin text
 
-    usage: python pinyinlize.py "你好，世界！" 
-    the default output is in sentence style, you can use "--word" to output in word style
+    usage: python pinyinlize.py "你好，世界" 
+    the default output is in sentence style, you can use "--head" to output in word style
 
 """
 
@@ -52,12 +52,12 @@ def main():
 
     parser = argparse.ArgumentParser(description='Convert Chinese text to pinyin')
     parser.add_argument('text', type=str, help='Chinese text')
-    parser.add_argument('--word', action="store_false", help='output pinyin in word style')
+    parser.add_argument('--head', action="store_false", help='output pinyin in word style')
 
     args = parser.parse_args()
     post_text = process_text(args.text)
     word_list = segment(post_text)
-    pinyin_text = pinyinlize(word_list, sentStyle=args.word)
+    pinyin_text = pinyinlize(word_list, sentStyle=args.head)
     print(pinyin_text)
 
 if __name__ == "__main__":
