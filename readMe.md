@@ -1,6 +1,6 @@
 readMe.md
 
-This is simply script that converts short Chinese text to pinyin.  
+This is a simple script that converts short Chinese text to pinyin.  
 
 It first tokenizes the Chinese text using Jieba, then output the corresponding pinyin of the Chinese tokens via pypinyin's `lazy_pinyin` methods.
 
