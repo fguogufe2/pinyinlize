@@ -9,7 +9,7 @@ It first tokenizes the Chinese text using Jieba, then output the corresponding p
 
 There are two possible outcomes for the output:  
 
-One is the sentence style, which means only the first letter of the first word is capitlized. Another is the headline style of which the first letters of all tokens are capitalized. The default is sentence style. You can use "--head" to output in headline style
+One is sentence style, which means only the first letter of the first word is capitalized. Another is headline style, in which the first letters of all tokens are capitalized. The default is the sentence style. You can use `--head` to output in the headline style
 
     usage: 
         `python pinyinlize.py "你好，世界" [--headline]`
