@@ -7,7 +7,7 @@ It first tokenizes the Chinese text using Jieba, then output the corresponding p
  input: chinese text  
  output: pinyin strings
 
-There are two possible outcomes for the input:  
+There are two possible outcomes for the output:  
 
 One is sentence style, which means that only the first letter of the first word is capitlized. Another is headline style of which the first letters of all tokens are capitalized. The default is sentence style. You can use "--head" to output in headline style
 
