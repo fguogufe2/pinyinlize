@@ -1,6 +1,6 @@
 readMe.md
 
-This is a simple script that converts short Chinese text to pinyin. It is written for the purpose of facilitating the generation of Chinese citations and bibiliograph in English academic settings.
+This is a simple and short script that converts short Chinese text(book, article or journal titles) to pinyin. It is written for the purpose of facilitating the generation of Chinese citations and bibiliograph in English academic settings. 
 
 It first tokenizes the Chinese text using Jieba, then output the corresponding pinyin of the Chinese tokens via pypinyin's `lazy_pinyin` method.
 
