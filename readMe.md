@@ -1,23 +1,28 @@
 readMe.md
 
-This is a simple and short script that converts short Chinese text(book, article or journal titles) to pinyin. It is written for the purpose of facilitating the generation of Chinese citations and bibiliograph in English academic settings. 
+**Description**: 
+This is a simple and short script that converts short Chinese-character strings(titles of books, articles or journals) to pinyin. It's purpose is to facilitate generating Chinese citations or bibiliograph in English settings. 
 
-It first tokenizes the Chinese text using Jieba, then output the corresponding pinyin of the Chinese tokens via pypinyin's `lazy_pinyin` method.
+**Steps**
 
- input: chinese text  
- output: pinyin strings
+It first tokenizes the Chinese strings using **Jieba**, and then output the corresponding pinyin via `pypinyin`'s `lazy_pinyin`.
+
+ - input: chinese characters  
+ - output: pinyin strings
 
 There are two possible outputs:  
 
-One is the sentence style, which means only the first letter of the first word is capitalized. Another is the headline style, in which the first letters of all tokens are capitalized. The default is the sentence style. You can use `--head` to output in the headline style
+- 1. the sentence style, which means only the first letter of the first word is capitalized. 
+- 2. the headline style, in which the first letters of all tokens are capitalized. The default is the sentence style. You can use `--head` to output in the headline style
 
-    usage: 
+usage: 
+
         
-        python pinyinlize.py <Chinese_text> [--headline]
+    python pinyinlize.py <Chinese_text> [--head]
 
     eg: 
 
-    command: python pinyinlize.py "清代基層地方官人事嬗遞現象之量化分析"  
+    python pinyinlize.py "清代基層地方官人事嬗遞現象之量化分析"  
 
     output: "Qingdai jiceng difangguan renshi shandi xianxiang zhi lianghua fenxi"
 
