@@ -5,8 +5,8 @@ setup(
     version='0.1',
     packages=find_packages(),
     install_requires=[
-        "jieba >= 0.42.1", 
-        "pypinyin >= 0.50.0"
+        "jieba", 
+        "pypinyin"
     ],
     entry_points={
         'console_scripts': [
