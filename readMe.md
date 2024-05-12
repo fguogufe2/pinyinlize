@@ -7,7 +7,7 @@ This is a simple and short script that converts short Chinese-character strings(
 
 It first tokenizes the Chinese strings using **Jieba**, and then output the corresponding pinyin via `pypinyin`'s `lazy_pinyin`.
 
- - input: chinese characters  
+ - input: Chinese characters (accept both traditional and simplified Chinese)
  - output: pinyin strings
 
 There are two possible outputs:  
