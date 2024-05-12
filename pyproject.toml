@@ -1,7 +1,35 @@
-[project]
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
 
-name='pinyinlize',
-version='0.1',
+
+[project]
+name='pinyinlize_fguogufe2',
+version='0.1.1',
+
+Authors =[
+    { name = "Fei Guo", email = "fguogufe2@gmail.com" }
+    ]
+
+Description = "a package converts short Chinese-character strings(titles of books, articles or journals) to pinyin."
+readme = "README.md"
+requires-python = ">=3.6.0"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "jieba", 
+    "pypinyin"
+]
+
+[project_urls]
+Homepage = ""
+
+
 packages=find_packages(),
 install_requires=[
     "jieba", 
