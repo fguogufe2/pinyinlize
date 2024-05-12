@@ -29,4 +29,4 @@ There are two possible outputs:
     
 **4 Installation** 
 
-pip install pinyinlize
+`pip install pinyinlize`
