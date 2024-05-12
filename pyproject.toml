@@ -5,11 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name='pinyinlize'
 version='0.1.1'
-Authors =[
+authors=[
     { name = "Fei Guo", email = "fguogufe2@gmail.com" }
     ]
 
-Description = "a package converts short Chinese-character strings(titles of books, articles or journals) to pinyin."
+description = "a package converts short Chinese-character strings(titles of books, articles or journals) to pinyin."
 readme = "README.md"
 
 
@@ -33,13 +33,9 @@ keywords = [
 ]
 
 
-
 [project_urls]
 Homepage = "https://github.com/fguogufe2/pinyinlize"
 
 [project.scripts]
 pinyinlize = "pinyinlize.pinyinlize:main"
-
-
-
 
