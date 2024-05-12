@@ -30,3 +30,6 @@ There are two possible outputs:
 **4 Installation** 
 
 `pip install pinyinlize`
+
+**5 future plans**
+To include a API call to Crossref and an option to output DOI or bibtex for the article or book input.
