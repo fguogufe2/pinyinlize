@@ -32,7 +32,6 @@ keywords = [
     "book",
 ]
 
-
 [project_urls]
 Homepage = "https://github.com/fguogufe2/pinyinlize"
 
