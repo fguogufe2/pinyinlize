@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name='pinyinlize_fguogufe2'
+name='pinyinlize'
 version='0.1.1'
 Authors =[
     { name = "Fei Guo", email = "fguogufe2@gmail.com" }
