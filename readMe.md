@@ -18,11 +18,11 @@ There are two possible outputs:
 usage: 
 
         
-    python pinyinlize.py <Chinese_text> [--head]
+    pinyinlize <Chinese_text> [--head]
 
     eg: 
 
-    python pinyinlize.py "清代基層地方官人事嬗遞現象之量化分析"  
+    pinyinlize "清代基層地方官人事嬗遞現象之量化分析"  
 
     output: "Qingdai jiceng difangguan renshi shandi xianxiang zhi lianghua fenxi"
 
