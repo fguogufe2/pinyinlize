@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pinyinlize=pinyinlize.pinpinlize:main'
+            'pinyinlize=pinyinlize.pinyinlize:main'
         ]
     },
     auhtor='Fei Guo',
