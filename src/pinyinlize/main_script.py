@@ -30,7 +30,7 @@ def segment(text):
     word_list = jieba.cut(text, use_paddle=True, cut_all=False)
     return word_list
 
-def pinyinlize(word_list, sentStyle=True):
+def pinyin_lize(word_list, sentStyle=True):
     # convert word list to pinyin list
     # sentStyle: output pinyin in sentence style, capitalize the first letter of the sentence
     # wordStyle: output pinyin in word style, capitalize the first letter of each word
@@ -57,7 +57,7 @@ def main():
     args = parser.parse_args()
     post_text = process_text(args.text)
     word_list = segment(post_text)
-    pinyin_text = pinyinlize(word_list, sentStyle=args.head)
+    pinyin_text = pinyin_lize(word_list, sentStyle=args.head)
     print(pinyin_text)
 
 if __name__ == "__main__":
