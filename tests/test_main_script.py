@@ -1,5 +1,5 @@
 import pytest
-from pinyinlize.main_script import process_text, segment, pinyin_lize, to_pinyin, main
+from pinyinlize import process_text, segment, pinyin_lize, to_pinyin, main
 
 
 def test_main():
