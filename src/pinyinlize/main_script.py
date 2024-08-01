@@ -55,6 +55,7 @@ def to_pinyin(text, head=True):
     word_list = segment(post_text)
     pinyin_text = pinyin_lize(word_list, sentStyle=head)
     print(pinyin_text)
+    return pinyin_text
 
 
 def main():

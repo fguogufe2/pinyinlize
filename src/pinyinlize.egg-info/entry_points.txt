@@ -1,0 +1,2 @@
+[console_scripts]
+pinyinlize = pinyinlize.main_script:main

@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pinyinlize/__init__.py
+src/pinyinlize/main_script.py
+src/pinyinlize.egg-info/PKG-INFO
+src/pinyinlize.egg-info/SOURCES.txt
+src/pinyinlize.egg-info/dependency_links.txt
+src/pinyinlize.egg-info/entry_points.txt
+src/pinyinlize.egg-info/requires.txt
+src/pinyinlize.egg-info/top_level.txt
+tests/test_main_script.py
