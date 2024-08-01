@@ -48,6 +48,15 @@ def pinyin_lize(word_list, sentStyle=True):
     return final_result
 
 
+# this is for use in a python script
+# run import pinyinlize.to_pinyin
+def to_pinyin(text, head=True):
+    post_text = process_text(text)
+    word_list = segment(post_text)
+    pinyin_text = pinyin_lize(word_list, sentStyle=head)
+    print(pinyin_text)
+
+
 def main():
 
     parser = argparse.ArgumentParser(description='Convert Chinese text to pinyin')
