@@ -36,5 +36,5 @@ keywords = [
 Homepage = "https://github.com/fguogufe2/pinyinlize"
 
 [project.scripts]
-pinyinlize = "pinyinlize.pinyinlize:main"
+pinyinlize = "pinyinlize.main_script:main"
 
