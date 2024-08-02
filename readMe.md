@@ -20,24 +20,24 @@ There are two possible outputs:
 
 - 1. command line:      
 
-    pinyinlize <Chinese_text> [--head]
+    `pinyinlize <Chinese_text> [--head]`
 
     eg: 
 
-    pinyinlize "清代基層地方官人事嬗遞現象之量化分析"  
+    `pinyinlize "清代基層地方官人事嬗遞現象之量化分析"`
 
     output: "Qingdai jiceng difangguan renshi shandi xianxiang zhi lianghua fenxi"
 
     
 - 2. in python scripting
 
-    from pinyinlize.main_script import to_pinyin
+    `from pinyinlize.main_script import to_pinyin`
 
     The method to_pinyin has two parameters, the first the text_string, the second is True or False value. The default is True. It determines if the output is formated in sentence style. 
     
     eg :
 
-    to_pinyin("清代基層地方官人事嬗遞現象之量化分析", sent_style=True)
+    `to_pinyin("清代基層地方官人事嬗遞現象之量化分析", sent_style=True)`
 
     output: "Qingdai jiceng difangguan renshi shandi xianxiang zhi lianghua fenxi"
 
