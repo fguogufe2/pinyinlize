@@ -38,9 +38,9 @@ There are two possible outputs:
     
     eg :
 
-    `to_pinyin("清代基層地方官人事嬗遞現象之量化分析", sent_style=True)`
+    `to_pinyin("清代基層地方官人事嬗遞現象之量化分析", sent_style=False)`
 
-    output: "Qingdai jiceng difangguan renshi shandi xianxiang zhi lianghua fenxi"
+    output: "Qingdai Jiceng Difangguan Renshi Shandi Xianxiang Zhi Lianghua Fenxi"
 
 **4 Installation** 
 
