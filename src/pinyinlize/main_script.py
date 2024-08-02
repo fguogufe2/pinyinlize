@@ -49,12 +49,13 @@ def pinyin_lize(word_list, sentStyle=True):
 
 
 # this is for use in a python script
-# run import pinyinlize.to_pinyin
-def to_pinyin(text, head=True):
+# run from pinyinlize.main_script import to_pinyin
+
+def to_pinyin(text, sent_style=True):
     post_text = process_text(text)
     word_list = segment(post_text)
-    pinyin_text = pinyin_lize(word_list, sentStyle=head)
-    print(pinyin_text)
+    pinyin_text = pinyin_lize(word_list, sentStyle=sent_style)
+    # print(pinyin_text)
     return pinyin_text
 
 
