@@ -33,7 +33,8 @@ There are two possible outputs:
 
     `from pinyinlize.main_script import to_pinyin`
 
-    The method to_pinyin has two parameters, the first the text_string, the second is True or False value. The default is True. It determines if the output is formated in sentence style. 
+    The method to_pinyin has two parameters, the first the text_string, the second is True or False value. The default is True. It determines if the output is formated in sentence style.
+    If sent_style is set to False, it will output headline style 
     
     eg :
 
