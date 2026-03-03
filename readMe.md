@@ -12,8 +12,8 @@ It first tokenizes the Chinese strings using **Jieba**, and then output the corr
 
 There are two possible outputs:  
 
-- 1. the sentence style, which means only the first letter of the first word is capitalized. 
-- 2. the headline style, in which the first letters of all tokens are capitalized. The default is the sentence style. You can use `--head` to output in the headline style
+- 1. the sentence style, which means only the first letter of the first word is written in uppercase. 
+- 2. the headline style, in which the first letters of all tokens are written in uppercase. The default is the sentence style. You can use `--head` to output in the headline style
 
 
 **3 usage:** 
