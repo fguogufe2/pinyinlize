@@ -1,7 +1,7 @@
 readMe.md
 
 **1 Description**: 
-This is a light-weight command-line tool to convert short Chinese-character strings(titles of books, articles or journals) to pinyin. The purpose is to facilitate generating Chinese citations or bibiliograph in English setting. There are many common tools for converting Chinese characters into pinyin. However, this application first performs tokenization, and then the converting. Hopefully this makes it more useful. 
+This is a light-weight command-line tool to convert short Chinese-character strings(titles of books, articles or journals) to pinyin. The purpose is to facilitate generating Chinese citations or bibiliograph in English setting. There are many common tools for converting Chinese characters into pinyin. However, this application first performs tokenization, and then the converting.  
 
 **2 Internal Steps** 
 
